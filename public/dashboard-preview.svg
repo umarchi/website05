@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="640" viewBox="0 0 920 640" role="img" aria-labelledby="title desc">
+  <title id="title">LiteSaaS dashboard preview</title>
+  <desc id="desc">A clean membership dashboard preview with content cards, progress, and user activity.</desc>
+  <rect width="920" height="640" rx="28" fill="#ffffff"/>
+  <rect x="32" y="32" width="856" height="576" rx="22" fill="#f7faf7" stroke="#dce7e1"/>
+  <rect x="64" y="72" width="172" height="496" rx="18" fill="#17202a"/>
+  <circle cx="96" cy="112" r="16" fill="#71d0ad"/>
+  <rect x="124" y="101" width="72" height="13" rx="6.5" fill="#ffffff"/>
+  <rect x="88" y="166" width="112" height="14" rx="7" fill="#d8fff1" opacity=".95"/>
+  <rect x="88" y="214" width="92" height="12" rx="6" fill="#7d8b94"/>
+  <rect x="88" y="258" width="118" height="12" rx="6" fill="#7d8b94"/>
+  <rect x="88" y="302" width="78" height="12" rx="6" fill="#7d8b94"/>
+  <rect x="88" y="494" width="104" height="34" rx="10" fill="#24735f"/>
+  <rect x="276" y="80" width="270" height="28" rx="14" fill="#17202a"/>
+  <rect x="276" y="126" width="384" height="14" rx="7" fill="#74828b"/>
+  <rect x="276" y="176" width="178" height="132" rx="18" fill="#e8f3ee" stroke="#cce0d8"/>
+  <rect x="480" y="176" width="178" height="132" rx="18" fill="#fff7dc" stroke="#eadca7"/>
+  <rect x="684" y="176" width="120" height="132" rx="18" fill="#eaf0ff" stroke="#ced9f4"/>
+  <rect x="304" y="210" width="78" height="16" rx="8" fill="#24735f"/>
+  <rect x="304" y="244" width="118" height="12" rx="6" fill="#6f7f78"/>
+  <rect x="304" y="268" width="82" height="12" rx="6" fill="#95a39d"/>
+  <rect x="508" y="210" width="92" height="16" rx="8" fill="#886a16"/>
+  <rect x="508" y="244" width="116" height="12" rx="6" fill="#8b805f"/>
+  <rect x="508" y="268" width="72" height="12" rx="6" fill="#aaa17e"/>
+  <rect x="712" y="210" width="54" height="16" rx="8" fill="#315a9b"/>
+  <rect x="712" y="244" width="60" height="12" rx="6" fill="#75839e"/>
+  <rect x="276" y="348" width="528" height="172" rx="20" fill="#ffffff" stroke="#dce7e1"/>
+  <rect x="308" y="382" width="168" height="16" rx="8" fill="#17202a"/>
+  <rect x="308" y="426" width="76" height="58" rx="12" fill="#e8f3ee"/>
+  <rect x="410" y="446" width="330" height="12" rx="6" fill="#74828b"/>
+  <rect x="410" y="474" width="246" height="12" rx="6" fill="#a8b3ad"/>
+  <circle cx="760" cy="456" r="20" fill="#71d0ad"/>
+</svg>
