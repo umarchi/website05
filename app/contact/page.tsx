@@ -1,4 +1,31 @@
+"use client";
+
+import { FormEvent } from "react";
+
+const mailTo = "jobs@archi-softs.com";
+
 export default function ContactPage() {
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    const name = String(formData.get("name") || "");
+    const email = String(formData.get("email") || "");
+    const message = String(formData.get("message") || "");
+    const subject = `制作相談: ${name}`;
+    const body = [
+      "制作相談がありました。",
+      "",
+      `お名前: ${name}`,
+      `メールアドレス: ${email}`,
+      "",
+      "相談内容:",
+      message,
+    ].join("\n");
+
+    window.location.href = `mailto:${mailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+
   return (
     <main className="sub-page">
       <section className="sub-hero">
@@ -10,21 +37,27 @@ export default function ContactPage() {
       </section>
 
       <section className="contact-layout">
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <p className="mail-target">送信先: {mailTo}</p>
           <label>
             お名前
-            <input placeholder="山田 太郎" />
+            <input name="name" placeholder="山田 太郎" required />
           </label>
           <label>
             メールアドレス
-            <input placeholder="client@example.com" type="email" />
+            <input name="email" placeholder="client@example.com" required type="email" />
           </label>
           <label>
             相談内容
-            <textarea placeholder="作りたい会員サイトの内容、予算感、希望納期など" rows={6} />
+            <textarea
+              name="message"
+              placeholder="作りたい会員サイトの内容、予算感、希望納期など"
+              required
+              rows={6}
+            />
           </label>
-          <button className="button primary" type="button">
-            送信内容を確認
+          <button className="button primary" type="submit">
+            メールで相談内容を送る
           </button>
         </form>
         <aside className="contact-aside">

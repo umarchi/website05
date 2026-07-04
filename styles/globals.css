@@ -582,6 +582,15 @@ meter {
   gap: 16px;
 }
 
+.mail-target {
+  background: #e8f3ee;
+  border-radius: 8px;
+  color: #24735f;
+  font-weight: 800;
+  margin: 0;
+  padding: 12px 14px;
+}
+
 .contact-form label {
   color: #35434e;
   display: grid;
